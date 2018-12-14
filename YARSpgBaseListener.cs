@@ -131,6 +131,18 @@ public partial class YARSpgBaseListener : IYARSpgListener {
 	/// <param name="context">The parse tree.</param>
 	public virtual void ExitRelationship_label([NotNull] YARSpgParser.Relationship_labelContext context) { }
 	/// <summary>
+	/// Enter a parse tree produced by <see cref="YARSpgParser.ido"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterIdo([NotNull] YARSpgParser.IdoContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="YARSpgParser.ido"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitIdo([NotNull] YARSpgParser.IdoContext context) { }
+	/// <summary>
 	/// Enter a parse tree produced by <see cref="YARSpgParser.node_label"/>.
 	/// <para>The default implementation does nothing.</para>
 	/// </summary>

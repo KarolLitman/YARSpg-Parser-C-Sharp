@@ -111,6 +111,16 @@ public interface IYARSpgListener : IParseTreeListener {
 	/// <param name="context">The parse tree.</param>
 	void ExitRelationship_label([NotNull] YARSpgParser.Relationship_labelContext context);
 	/// <summary>
+	/// Enter a parse tree produced by <see cref="YARSpgParser.ido"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	void EnterIdo([NotNull] YARSpgParser.IdoContext context);
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="YARSpgParser.ido"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	void ExitIdo([NotNull] YARSpgParser.IdoContext context);
+	/// <summary>
 	/// Enter a parse tree produced by <see cref="YARSpgParser.node_label"/>.
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
